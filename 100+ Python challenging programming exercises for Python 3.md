@@ -43,10 +43,11 @@ for i in range(2000, 3201):
 print(','.join(l))
 ```
 
-alternative solution:
+Alternative Solution:
+```
 divisable = [x for x in range(2000, 3201) if x % 7 == 0 and x % 5 != 0]
 print(divisable)
-
+```
 ### Question 2
 Level 1
 
